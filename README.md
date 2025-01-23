@@ -15,7 +15,9 @@ pip install -r requirements.txt
 ## 如果使用虚拟环境，先激活环境再安装：
 source venv/bin/activate  激活虚拟环境
 pip install -r requirements.txt
+
 #请自行将API KEY加入环境变量，方法：
+
 ##Windows 设置环境变量：
 
 ###临时设置（命令行）：
