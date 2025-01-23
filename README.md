@@ -1,37 +1,37 @@
 # deepseek-R1-chat-ui
 deepseek-R1的聊天ui
-windows平台安装依赖：
-# 安装所有依赖
+#windows平台安装依赖：
+## 安装所有依赖
 pip install -r requirements.txt
 
 # 如果使用虚拟环境，先激活环境再安装：
-venv\Scripts\activate  # 激活虚拟环境
+venv\Scripts\activate  激活虚拟环境
 pip install -r requirements.txt
 
-macos平台：
-# 安装所有依赖
+#macos平台：
+## 安装所有依赖
 pip install -r requirements.txt
 
-# 如果使用虚拟环境，先激活环境再安装：
-source venv/bin/activate  # 激活虚拟环境
+## 如果使用虚拟环境，先激活环境再安装：
+source venv/bin/activate  激活虚拟环境
 pip install -r requirements.txt
 请自行将API KEY加入环境变量，方法：
 Windows 设置环境变量：
 
 临时设置（命令行）：
 
-bashCopy# CMD
+## CMD
 set API_KEY=your_api_key_here
 
-# PowerShell
+## PowerShell
 $env:API_KEY="your_api_key_here"
 
 永久设置（命令行）：
 
-bashCopy# CMD
+## CMD
 setx API_KEY "your_api_key_here"
 
-# PowerShell
+## PowerShell
 [Environment]::SetEnvironmentVariable("API_KEY", "your_api_key_here", "User")
 macOS 设置环境变量：
 
