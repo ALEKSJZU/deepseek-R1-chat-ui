@@ -94,5 +94,8 @@ macOS:
 ```bash
 echo $API_KEY
 ```
-
+运行：
+```bash
+streamlit run ui.py
+```
 注：当前版本未显示思考过程，如果需要请自行修改代码添加功能
